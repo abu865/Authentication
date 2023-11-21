@@ -1,0 +1,70 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.login-header {
+
+    margin-bottom: 100;
+}
+
+.login-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: relative;  */
+    height: auto;
+}
+
+label {
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* background-color: brown; */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+.error {
+   
+    color: red;
+    position: absolute;
+    /* width: 100%; */
+    margin-top: -8px; 
+    /* background-color: #45a049; */
+  }
+
+  
+  @media (min-width: 600px) {
+    .login-card {
+      max-width: 600px;
+    }
+  }
